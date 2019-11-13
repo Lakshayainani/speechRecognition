@@ -1,4 +1,4 @@
-const btn =document.querySelector('.Talk');
+const btn =document.querySelector('.button');
 const content =document.querySelector('.content');
 
 const greetings = ['I\'m good','doing good','leave me Alone'];
