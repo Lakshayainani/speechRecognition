@@ -34,7 +34,7 @@ btn.addEventListener('click', () => {
 function readOutLoud(message){
     const speech = new SpeechSynthesisUtterance();
 
-    speech.text ='I dont know what you said??';
+    speech.text ='I dont Understand??';
 
     if(message.includes('how are you')){
        const finalText = greetings[Math.floor(Math.random() * greetings.length)];
